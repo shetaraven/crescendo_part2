@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/css/acme.css">
+    <link rel="stylesheet" href="assets/css/acme-responsive.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <title>ACME Corporation</title>
+</head>
+
+<body>
+    <div class="navbar_desktop">
+        <div class="navbar_desktop__container">
+        	<div class="navbar_desktop__header">
+        		<div class="navbar_desktop__logo">
+        			<img src="assets/img/logo.png">
+        		</div>
+                <div class="navbar_desktop__title">
+                    <span class="navbar_desktop__title--small">Research Professional</span>
+                    <span class="navbar_desktop__title--large">Platform</span>
+                </div>
+        	</div>
+            <div class="navbar_desktop__menu">
+                <ul class="navbar_desktop__menu__list">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Insights</li>
+                    <li>Events</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="navbar_mobile" id="toggle_menu">
+        <div class="navbar_mobile__header">
+            <div class="navbar_mobile__header__logo">
+                <img src="assets/img/mobile_logo.png">
+                <div class="navbar_mobile__toggle">
+                    <div class="icon" onClick="toggle_menu_func()"></div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar_mobile__menu">
+            <div class="navbar_mobile__menu__title">Site Links</div>
+            <ul class="navbar_mobile__list">
+                <li class="navbar_mobile__list__item">Home</li>
+                <li class="navbar_mobile__list__item">About Us</li>
+                <li class="navbar_mobile__list__item">Insights</li>
+                <li class="navbar_mobile__list__item">Events</li>
+                <li class="navbar_mobile__list__item">Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main_banner_desktop">
+        <div class="main_banner_desktop__container">
+            <div class="main_banner_desktop__title">
+                ACME Wealth Management Platforms
+            </div>
+            <div class="main_banner_desktop__subtitle">
+                <span>Investment Excellence.</span>
+                <span>Diversity of Thought.</span>
+                <span>Organizational Strength.</span>
+            </div>
+        </div>
+    </div>
+    <div class="main_banner_mobile">
+        <div class="main_banner_mobile__title1">
+            Research Professional Platform
+        </div>
+        <div class="main_banner_mobile__title2">
+            <p>ACME Wealth<br><span>Management Platforms</span></p>
+        </div>
+        <div class="main_banner_mobile__dots">
+            .................
+        </div>
+        <div class="main_banner_mobile__subtitles">
+            <span>Investment Excellence.</span>
+            <span>Diversity of Thought.</span>
+            <span>Organizational Strenght.</span>
+        </div>
+    </div>
+
+    <div class="insights_desktop">
+        <div class="insights_desktop__container">
+            <div class="insights_desktop__title">
+                ACME Insights_desktop
+            </div>
+            <div class="insights_desktop__subtitle">
+                How are factors being used around the world?
+            </div>
+            <div class="insights_desktop__blocks">
+                <div class="insights__box insights__box--blue">
+                    <div class="insights__box__image">
+                        <img src="assets/img/block1.png">
+                    </div>
+                    <p>Global Factor <br> Investing Study</p>
+                </div>
+                <div class="insights__box insights__box--green">
+                    <div class="insights__box__image">
+                        <img src="assets/img/block2.png">
+                    </div>
+                    <p>2019<br>Outlook</p>
+                </div>
+                <div class="insights__box insights__box--lightblue">
+                    <div class="insights__box__image">
+                        <img src="assets/img/block3.png">
+                    </div>
+                    <p>Capital Market<br>Assumptions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="insights_mobile">
+        <div class="insights_mobile__title">
+            ACME <span>Insights</span>
+        </div>
+        <div class="insights_mobile__subtitle">
+            How are factors being used around the world?
+        </div>
+        <div class="carousel" data-flickity='{ "freeScroll": true }'>
+            <div class="carousel-cell">
+                <div class="insights__box insights__box--blue">
+                    <div class="insights__box__image">
+                        <img src="assets/img/block1.png">
+                    </div>
+                    <p>Global Factor <br> Investing Study</p>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="insights__box insights__box--green">
+                    <div class="insights__box__image">
+                        <img src="assets/img/block2.png">
+                    </div>
+                    <p>2019<br>Outlook</p>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="insights__box insights__box--lightblue">
+                    <div class="insights__box__image">
+                        <img src="assets/img/block3.png">
+                    </div>
+                    <p>Capital Market<br>Assumptions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="commitments">
+        <div class="commitments__container">
+            <h3>Our Commitment <span>to Professionals</span></h3>
+            <p>We help our partners deliver industry leading results with a commitment to excellence, throught-provoking insights and experienced distribution. We are laser focused on our shared goal - helping clients achieve their objectives.</p>
+            <button class="commitments__button">Contact Us</button>
+        </div>
+    </div>
+
+    <div class="events">
+        <div class="events__desktop">
+            <div class="events__title">
+                Upcomming Events
+            </div>
+            <div class="events__subtitle">
+                This needs a great tagline, but i'll fill it in later.
+            </div>
+            <div class="events__block">
+                <div class="events__box">
+                    <p class="events__box__date">JAN<span>28</span></p>
+                    <div class="events__box__title">Insight Exchange Network</div>
+                    <div class="events__box__desc">Join us for this conference showcasing innovation.</div>
+                    <button class="events__box__more_btn">Get More Insights</button>
+                    <div class="events__box__location">Chicago, IL</div>
+                </div>
+                <div class="events__box">
+                    <p class="events__box__date">FEB<span>12</span></p>
+                    <div class="events__box__title">City Wide Buyers Retreat</div>
+                    <div class="events__box__desc">Find out how banks are responding to the changing future of interest...</div>
+                    <button class="events__box__more_btn">Get More Insights</button>
+                    <div class="events__box__location">The Wagner, New York</div>
+                </div>
+                <div class="events__box">
+                    <p class="events__box__date">MAY<span>6</span></p>
+                    <div class="events__box__title">Research Exchange</div>
+                    <div class="events__box__desc">Find the best online resources to help with your investments...</div>
+                    <button class="events__box__more_btn">Get More Insights</button>
+                    <div class="events__box__location">London, England</div>
+                </div>
+            </div>
+        </div>
+        <div class="events__mobile">
+            <div class="events__title">
+                Upcomming <span>Events</span>
+            </div>
+            <div class="events__subtitle">
+                At ACME, we're dedicated to learning, connecting and exploring opportunities.
+            </div>
+            <div class="carousel" data-flickity='{ "freeScroll": true }'>
+                <div class="carousel-cell">
+                    <div class="events__box">
+                        <p class="events__box__date">JAN<span>28</span></p>
+                        <div class="events__box__title">Insight Exchange Network</div>
+                        <div class="events__box__desc">Join us for this conference showcasing innovation.</div>
+                        <button class="events__box__more_btn">Get More Insights</button>
+                        <div class="events__box__location">Chicago, IL</div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="events__box">
+                        <p class="events__box__date">FEB<span>12</span></p>
+                        <div class="events__box__title">City Wide Buyers Retreat</div>
+                        <div class="events__box__desc">Find out how banks are responding to the changing future of interest...</div>
+                        <button class="events__box__more_btn">Get More Insights</button>
+                        <div class="events__box__location">The Wagner, New York</div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="events__box">
+                        <p class="events__box__date">MAY<span>6</span></p>
+                        <div class="events__box__title">Research Exchange</div>
+                        <div class="events__box__desc">Find the best online resources to help with your investments...</div>
+                        <button class="events__box__more_btn">Get More Insights</button>
+                        <div class="events__box__location">London, England</div>
+                    </div>
+                </div>
+            </div>
+            <img class="lower_logo" src="assets/img/logo2.png">
+        </div>
+    </div>
+
+    <div class="footer_desktop">
+        <div class="footer_desktop__container">
+            <div class="footer_desktop_details">
+                <p>Call us at 111-222-3333<br>for more information</p>
+            </div>
+            <div class="footer_desktop__socials">
+                <div>Social Share</div>
+                <ul class="footer_desktop__socials_block">
+                    <li class="footer_desktop__socials_icon">
+                        <i class="fa fa-twitter"></i>
+                    </li>
+                    <li class="footer_desktop__socials_icon">
+                        <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="footer_desktop__socials_icon">
+                        <i class="fa fa-linkedin"></i>
+                    </li>
+                    <li class="footer_desktop__socials_icon">
+                        <i class="fa fa-envelope-o"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_mobile">
+        <div class="footer_mobile_others">
+            <button>Privacy Policy</button>
+            <button>Terms of Use</button>
+        </div>
+        <div class="navbar_mobile__menu">
+            <div class="navbar_mobile__menu__title">Site Links</div>
+            <ul class="navbar_mobile__list">
+                <li class="navbar_mobile__list__item">Home</li>
+                <li class="navbar_mobile__list__item">About Us</li>
+                <li class="navbar_mobile__list__item">Insights</li>
+                <li class="navbar_mobile__list__item">Events</li>
+                <li class="navbar_mobile__list__item">Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="dimmer"></div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+function toggle_menu_func() {
+    var element = document.getElementById("toggle_menu");
+    element.classList.toggle("navbar_mobile--checked");
+    document.getElementById("dimmer").classList.toggle("dimmer--show");
+}
+</script>
