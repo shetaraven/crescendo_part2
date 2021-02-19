@@ -1,12 +1,21 @@
+$dark-blue: #001254;
+$white: #fff;
+$dark-white: #ebebeb;
+$cream: #ccc;
+$blue: #1450d2;
+$green: #01a49c;
+$light-blue: #009bfa;
+$red: #d81e05;
+
 body{
 	margin: 0;
 }
 
 .navbar_desktop{
-	border-bottom: solid 15px #001254;
+	border-bottom: solid 15px $dark-blue;
 	text-align: center;
 	position: fixed;
-	background: #fff;
+	background: $white;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -28,7 +37,7 @@ body{
 		width: 35%;
 
 		img{
-			background: #fff;
+			background: $white;
 			padding: 10px;
 			width: 100%;
 			position: relative;
@@ -41,7 +50,7 @@ body{
 		width: 60%;
 		margin: auto auto 0;
 		padding: 0 15px 0 20px;
-		border-right: solid 2px #ccc;
+		border-right: solid 2px $cream;
 		margin-bottom: 15px;
 		text-align: left;
 
@@ -55,7 +64,7 @@ body{
 
 		&--small{
 			font-size: 9.1pt;
-			color: #009bfa;
+			color: $light-blue;
 			font-style: normal;
 			padding-left: 2px;
 		}
@@ -102,7 +111,7 @@ body{
 		margin: auto;
 		padding: 110px 0 110px 10px;
 		font-family: Helvetica, sans-serif;
-		color: #fff;
+		color: $white;
 	}
 
 	&__title{
@@ -127,7 +136,7 @@ body{
 }
 
 .insights_desktop{
-	background: #ebebeb;
+	background: $dark-white;
 
 	&__container{
 		width: 70%;
@@ -153,7 +162,7 @@ body{
 }
 
 .insights__box{
-	background: #fff;
+	background: $white;
 	padding: 20px 20px 15px;
 	width: 100%;
 	margin-left: 20px;
@@ -187,7 +196,7 @@ body{
 			top: -26px;
 			border-top: 40px solid transparent;
 			border-bottom: 40px solid transparent;
-			border-left: 40px solid #fff;
+			border-left: 40px solid $white;
 			transform: rotate(-135deg);
 		}
 
@@ -198,24 +207,24 @@ body{
 			bottom: -26px;
 			border-top: 40px solid transparent;
 			border-bottom: 40px solid transparent;
-			border-left: 40px solid #fff;
+			border-left: 40px solid $white;
 			transform: rotate(45deg);
 		}
 	}
 
 	&--blue{
-		border-bottom: solid 8px #1450d2;
-		color: #1450d2;
+		border-bottom: solid 8px $blue;
+		color: $blue;
 	}
 
 	&--green{
-		border-bottom: solid 8px #01a49c;
-		color: #01a49c;
+		border-bottom: solid 8px $green;
+		color: $green;
 	}
 
 	&--lightblue{
-		border-bottom: solid 8px #009bfa;
-		color: #009bfa;
+		border-bottom: solid 8px $light-blue;
+		color: $light-blue;
 	}
 }
 
@@ -223,7 +232,7 @@ body{
 	background: url('../img/commitment_bg.png');
 	background-size: cover;
 	text-align: center;
-	color: #fff;
+	color: $white;
 	font-family: Helvetica, sans-serif;
 
 	&__container{
@@ -246,8 +255,8 @@ body{
 	&__button{
 		padding: 10px 25px;
 		background: transparent;
-		color: #fff;
-		border: solid 1px #fff;
+		color: $white;
+		border: solid 1px $white;
 		font-weight: 700;
 		cursor: pointer;
 		margin-top: 30px;
@@ -255,7 +264,7 @@ body{
 }
 
 .events{
-	background: #ebebeb;
+	background: $dark-white;
 	padding: 30px 0 30px 10px;
 
 	&__desktop{
@@ -281,18 +290,18 @@ body{
 	}
 
 	&__box{
-		background: #1450d2;
+		background: $blue;
 		width: 33%;
 		margin-right: 15px;
 		font-family: Helvetica, sans-serif;
-		color: #fff;
+		color: $white;
 
 		&:last-child{
 			margin-right: 0;
 		}
 
 		&__date{
-			background: #001254;
+			background: $dark-blue;
 			display: inline-block;
 			padding: 10px;
 			text-align: center;
@@ -338,16 +347,16 @@ body{
 		&__more_btn{
 			padding: 10px 15px;
 			background: transparent;
-			border: solid 1px #fff;
+			border: solid 1px $white;
 			margin-top: 15px;
-			color: #fff;
+			color: $white;
 			cursor: pointer;
 			margin-left: 20px;
 		}
 
 		&__location{
 			position: relative;
-			background: #fff;
+			background: $white;
 			padding: 10px;
 			color: #000;
 			margin-top: 40px;
@@ -357,7 +366,7 @@ body{
 			&::before{
 				content: '';
 				position: absolute;
-				border-bottom: 38px solid #1450d2;
+				border-bottom: 38px solid $blue;
 				border-left: 25px solid transparent;
 				border-right: 0px solid transparent;
 				height: 0;
@@ -382,7 +391,7 @@ body{
 
 	&_details{
 		font-size: 8pt;
-		color: #fff;
+		color: $white;
 		opacity: .8;
 		width: 49%;
 		display: inline-block;
@@ -399,7 +408,7 @@ body{
 
 		div{
 			display: inline-block;
-			color: #fff;
+			color: $white;
 			font-size: 8pt;
 			vertical-align: text-top;
 		}
@@ -504,7 +513,7 @@ body{
 	&__menu{
 		padding: 20px 30px;
 		text-align: center;
-		background: #fff;
+		background: $white;
 		width: 100%;
 		box-sizing: border-box;
 		transition: all ease-in-out .5s;
@@ -529,7 +538,7 @@ body{
 		&__item{
 			width: 100%;
 			padding: 15px;
-			background: #ebebeb;
+			background: $dark-white;
 			font-size: 12pt;
 			box-sizing: border-box;
 			margin-bottom: 10px;
@@ -548,13 +557,13 @@ body{
 		.navbar_mobile__toggle .icon::before{
 			transform: translate(-50%,-50%) rotate(45deg);
 			top: 50%;
-			background: #d81e05;
+			background: $red;
 		}
 
 		.navbar_mobile__toggle .icon::after{
 			transform: translate(-50%,-50%) rotate(-45deg);
 			top: 50%;
-			background: #d81e05;
+			background: $red;
 		}
 	}
 }
@@ -569,12 +578,12 @@ body{
 
 	&__title1{
 		font-size: 12pt;
-		color: #fff;
+		color: $white;
 	}
 
 	&__title2{
 		font-size: 12pt;
-		color: #fff;
+		color: $white;
 		margin-top: 80px;
 
 		p{
@@ -589,7 +598,7 @@ body{
 
 	&__dots{
 		font-size: 25pt;
-		color: #fff;
+		color: $white;
 		opacity: .7;
 		letter-spacing: 2px;
 		margin-top: -10px;
@@ -601,7 +610,7 @@ body{
 		span{
 			display: inline-block;
 			width: 100%;
-			color: #fff;
+			color: $white;
 			line-height: 1.5;
 		}
 	}
@@ -622,7 +631,7 @@ body{
 	}
 
 	&__title{
-		color: #fff;
+		color: $white;
 		padding-left: 30px;
 		font-size: 18pt;
 
@@ -632,7 +641,7 @@ body{
 	}
 
 	&__subtitle{
-		color: #fff;
+		color: $white;
 		padding-left: 30px;
 		font-size: 11pt;
 		margin: 5px 0 20px 0;
@@ -677,7 +686,7 @@ body{
 		}
 
 		&__date{
-			background: #fff;
+			background: $white;
 			color: #028e85;
 
 			&::before{
@@ -711,7 +720,7 @@ body{
 }
 
 .footer_mobile{
-	background: #cccccc;
+	background: $cream;
 	padding: 20px 30px;
 	display: none;
 
@@ -722,7 +731,7 @@ body{
 		button{
 			width: 100%;
 			padding: 15px;
-			background: #ebebeb;
+			background: $dark-white;
 			color: #707070;
 			font-weight: 700;
 			margin-right: 10px;
@@ -748,7 +757,7 @@ body{
 	}
 }
 
-#dimmer{
+.dimmer{
 	opacity: 0;
 	background: rgba(0,0,0,0.5);
 	position: fixed;
@@ -786,10 +795,10 @@ body{
 
 	.dot{
 		background: transparent;
-		border: solid 1px #fff;
+		border: solid 1px $white;
 
 		&.is-selected{
-			background: #fff;
+			background: $white;
 		}
 	}
 }
